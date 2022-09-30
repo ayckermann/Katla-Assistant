@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace katlaAsstBot
+namespace Katla_Assistant
 {
     class Program
     {
@@ -76,7 +76,12 @@ namespace katlaAsstBot
                 }
                 //output
                 for(int i =0;i<data.Count;i++){
-                    Console.Write(data[i] + ", ");
+                    if(i==data.Count-1){
+                        Console.Write(data[i]);
+                    }
+                    else{
+                        Console.Write(data[i] + ", ");
+                    }
                 }
                 Console.Write("\n");
             }
