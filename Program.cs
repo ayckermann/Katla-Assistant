@@ -14,11 +14,11 @@ namespace katlaAsstBot
             string[] LogFile = {"a"};
 
             if(dict=="katla"||dict=="Katla"||dict=="k"||dict=="K"){
-                LogFile = System.IO.File.ReadAllLines(@"D:\katlaAsst\DataKatla.txt");
+                LogFile = System.IO.File.ReadAllLines(@"DataKatla.txt");
                 Console.WriteLine("Anda memilih Katla");
             }
             else if(dict=="wordle"||dict=="Wordle"||dict=="w"||dict=="W"){
-                LogFile = System.IO.File.ReadAllLines(@"D:\katlaAsst\DataWordle.txt");
+                LogFile = System.IO.File.ReadAllLines(@"DataWordle.txt");
                 Console.WriteLine("Anda memilih Wordle");
             }
             else{
