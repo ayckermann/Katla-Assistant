@@ -28,8 +28,8 @@ namespace Katla_Assistant
 
             List<string> data = new List<string>(LogFile);
 
-            string guess;
-            string color;
+            string? guess;
+            string? color;
 
             // run prefix
 
